@@ -393,7 +393,8 @@ section{
 	
 	.header-hero{
 		padding: 0;
-		width: 100%;	
+		width: 100%;
+		background-image: url(../img/bg-360.jpg), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));	
 	}
 
 	.header-hero .nav-hero{
@@ -428,6 +429,7 @@ section{
 		height: 50%;
 		margin-top: 150px;
 		padding-left: 15px;
+		padding-right: 12px;
 		overflow: hidden;
 	}
 
