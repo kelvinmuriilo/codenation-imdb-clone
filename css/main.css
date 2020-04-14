@@ -426,7 +426,7 @@ section{
 
 	.header-hero .hero-conteudo{
 		width: 100%;
-		height: 50%;
+		height: auto;
 		margin-top: 140px;
 		padding-left: 15px;
 		padding-right: 12px;
