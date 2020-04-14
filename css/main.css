@@ -387,3 +387,43 @@ section{
 .rodape-area-redes-sociais .fa-instagram:hover{
 	color: rgb(213,80,107);
 }
+
+
+@media(max-width: 760px){
+	
+	.header-hero{
+		padding: 0;
+		width: 100%;
+	}
+	.header-hero .hero-conteudo .hero-titulo{
+		font-size: 40px;
+	}
+
+	.header-hero .nav-hero{
+		padding: 10px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.header-hero .nav-hero hero-imagem{
+		margin-left: -100px;
+		width: 45px;
+		order: 0;
+	}
+
+	.header-hero .nav-hero .area-hero{
+		order: 1;
+		width: 40%;
+	}
+
+	.header-hero .nav-hero .nav-list{
+		padding: 0;
+		order: 2;
+		width: 100%;
+		justify-content: space-around;
+	}
+	
+}
