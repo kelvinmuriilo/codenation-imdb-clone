@@ -61,7 +61,7 @@ section{
 
 .header-hero{
 	padding: 1.5%;
-	height: 547px;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -429,7 +429,6 @@ section{
 		margin-top: 150px;
 		padding-left: 15px;
 		overflow: hidden;
-		border: 1px solid red;	
 	}
 
 	.header-hero .hero-conteudo .hero-titulo{
