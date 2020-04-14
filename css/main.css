@@ -460,8 +460,36 @@ section{
 		padding: 0;
 	}
 
-	.header-hero .hero-conteudo .hero-informacao p{
-		
+	.catalogo .nav-catalogo{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		align-items: center;
 	}
 
+	.catalogo .nav-catalogo ul{
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	.catalogo .nav-catalogo ul .item-menu-catalogo{
+		margin: 0;
+		padding: 10px;
+	}
+
+	.catalogo .container{
+		margin: 0;
+	}
+
+	.rodape{
+		margin: 0;
+		padding:10px;
+	}	
+
+	.rodape .rodape-area-redes-sociais{
+		width: 30%;
+	}
 }
